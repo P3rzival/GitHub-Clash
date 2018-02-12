@@ -30,10 +30,10 @@ function RepoGrid (props) {
                         <div className='popular-rank'># {index + 1}</div>
                         <ul className='space-list-items'>
                             <li>
-                                <img 
+                                <a href={repo.html_url}><img 
                                 className='avatar'
                                 src={repo.owner.avatar_url}
-                                alt={'Avatar for ' + repo.owner.login} />
+                                alt={'Avatar for ' + repo.owner.login} /></a>
                             </li>
                             <li><a href={repo.html_url}>{repo.name}</a></li>
                             <li>@{repo.owner.login}</li>

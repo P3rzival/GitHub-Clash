@@ -5,7 +5,8 @@ class Home extends React.Component {
   render() {
     return (
       <div className='home-container'>
-        <h1>Github Battle: Battle your friends... and stuff.</h1>
+        <h1>Welcome to Git Clash, where you can battle your friends! </h1>
+        <img src='https://www.shareicon.net/data/2016/03/08/730791_hands_512x512.png' />
         <Link className='button' to='/battle'>Battle</Link>
       </div>
     )

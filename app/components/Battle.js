@@ -100,6 +100,9 @@ class Battle extends React.Component {
 
     return (
       <div>
+        <div className='home-container'>
+          <h1>Select the two players who are about to clash!</h1>
+        </div>
         <div className='row'>
           {!playerOneName &&
             <PlayerInput
